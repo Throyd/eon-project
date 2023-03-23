@@ -3,6 +3,6 @@ title: Eon Project
 
 collections:
   blog:
-    collections_dir: _blogs
+    collections_dir: _blog_posts
 
 exclude: [.scss, README.md, package.json]
