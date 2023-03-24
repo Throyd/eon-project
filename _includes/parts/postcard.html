@@ -3,9 +3,7 @@
     <div class="uk-grid">
       <div class="uk-grid-1-4@m uk-card-media-left uk-cover-container">
         <img src="{{post.image}}" uk-cover>
-        <canvas width="600" height="400"></canvas>
       </div>
-
       <div class="uk-grid-3-4@m">
         <div class="uk-card-header uk-padding-small">
           <h3>{{post.name}}</h3>
@@ -14,11 +12,13 @@
           {{post.excerpt}}
         </div>
         <div class="uk-card-footer uk-padding-small uk-inline">
-          <div class="">
-            {{post.date}}
-          </div>
-          <div class="">
-            <a href="{{post.url}}">Read More</a>
+          <div class="uk-grid">
+            <div class="uk-width-1-2@m uk-text-left">
+              {{post.date}}
+            </div>
+            <div class="uk-width-1-2@m uk-text-right">
+              <a href="{{post.url}}">Read More</a>
+            </div>
           </div>
         </div>
       </div>
