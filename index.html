@@ -8,3 +8,13 @@ excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead
 <!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
 
   <h4>{{site.tagline}}</h4>
+
+{% for post in site.blog %}
+  <h2>
+    Post:
+    <a href="{{ post.url }}">
+      {{ post.name }} - {{ post.date }}
+    </a>
+  </h2>
+  <p>{{ post.content | markdownify }}</p>
+{% endfor %}
