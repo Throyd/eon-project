@@ -15,6 +15,6 @@ exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
 collections:
   blog:
     order: date
-    directory: _blogposts
+    collections_dir: _blogposts
   categories
-    directory: categories
+    collections_dir: _categories
