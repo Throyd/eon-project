@@ -10,3 +10,11 @@ email: "throyd@dev.beaters.es" # This is my real email address. Please don't ema
 
 # Exclude
 exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
+
+# Collections
+collections:
+  blog:
+    order: date
+    directory: blogposts
+  categories
+    directory: categories
