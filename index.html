@@ -10,11 +10,8 @@ excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead
   <h4>{{site.tagline}}</h4>
 
 {% for post in site.blogposts %}
-  <h2>
-    Post:
-    <a href="{{ post.url }}">
-      {{ post.name }} - {{ post.date }}
-    </a>
-  </h2>
-  <p>{{ post.content | markdownify }}</p>
+<div class="uk-grid">
+  {% include /parts/postcard.html %}
+</div>
+
 {% endfor %}
