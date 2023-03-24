@@ -1,7 +1,8 @@
 # Site settings
 title: Eon Project
 tagline: "A new Unreal Engine 5 project"
-url: "https://throyd.github.io/eon-project/" #
+baseurl: "/eon-project" 
+url: "https://jeffpatton1971.github.io"
 
 # Social
 
