@@ -1,23 +1,21 @@
-<div class="uk-grid-1-2@m">
-  <div class="uk-card uk-card-default">
-    <div class="uk-grid">
-      <div class="uk-grid-1-4@m">
-        IMAGEN
+<div class="uk-card uk-card-default">
+  <div class="uk-grid">
+    <div class="uk-grid-1-4@m">
+      IMAGEN
+    </div>
+    <div class="uk-grid-3-4@m">
+      <div class="uk-card-header uk-padding-small">
+        <h3>{{post.name}}</h3>
       </div>
-      <div class="uk-grid-3-4@m">
-        <div class="uk-card-header uk-padding-small">
-          <h3>{{post.name}}</h3>
+      <div class="uk-card-body uk-padding-small">
+        {{post.excerpt}}
+      </div>
+      <div class="uk-card-footer uk-padding-small">
+        <div class="uk-position-left">
+          {{post.date}}
         </div>
-        <div class="uk-card-body uk-padding-small">
-          {{post.content}}
-        </div>
-        <div class="uk-card-footer uk-padding-small">
-          <div class="uk-position-left">
-            {{post.date}}
-          </div>
-          <div class="uk-position-right">
-            <a href="{{post.url}}">Read More</a>
-          </div>
+        <div class="uk-position-right">
+          <a href="{{post.url}}">Read More</a>
         </div>
       </div>
     </div>
