@@ -17,3 +17,4 @@ collections:
     order: date
     permalink: /blog/:name
     output: true
+  
