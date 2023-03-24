@@ -1,0 +1,12 @@
+# Site settings
+title: Eon Project
+tagline: "A new Unreal Engine 5 project"
+url: "https://throyd.github.io/eon-project/" #
+
+# Social
+
+# Contact
+email: "throyd@dev.beaters.es" # This is my real email address. Please don't email me.
+
+# Exclude
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
