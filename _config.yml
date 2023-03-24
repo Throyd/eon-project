@@ -16,5 +16,7 @@ collections:
   blogposts:
     order: date
     permalink: /blog/:name
+    output: true
   categories:
     permalink: /category/:name
+    output: true
