@@ -7,7 +7,7 @@ excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead
 <!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
 <!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
 <div class="uk-grid">
-  <div class="uk-width-1-3@m">
+  <div class="uk-width-2-3@m">
     <h4>{{site.tagline}}</h4>
 
     {% for post in site.blogposts %}
@@ -15,5 +15,8 @@ excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead
         {% include /parts/postcard.html %}
       </div>
    {% endfor %}
+  </div>
+  <div class="uk-width-1-3@m">
+   {% include sidebar/about_throyd.html
   </div>
 </div>
