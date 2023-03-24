@@ -13,8 +13,8 @@ exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
 
 # Collections
 collections:
-  blog:
+  blogposts:
     order: date
-    collections_dir: _blogposts
+    permalink: /blog/:name
   categories
-    collections_dir: _categories
+    permalink: /category/:name
