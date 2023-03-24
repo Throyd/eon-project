@@ -20,4 +20,3 @@ collections:
   categories:
     permalink: /category/:name
     output: true
-  sidebar:
