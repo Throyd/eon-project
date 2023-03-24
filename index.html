@@ -5,7 +5,9 @@ subtitle: Home
 <section>
   <div class="uk-grid">
     <div class="uk-width-2-3@m">
-      Aqui va el content    
+      {% for project in site.projects %}
+        {% include layouts/parts/postcard.html}
+			{% endfor %}
     </div>
     <div class="uk-width-1-3@m">
       Aqui va el sidebar
